@@ -9,4 +9,8 @@
 * Стилизуйте в таблице стилей универсальные классы: .account-info, .account-info label, .account-info input, .account-info select, .account-action, .account-action .btn, .account-action label, input[type="text"], input[type="email"],  select, textarea используемые для более точной настройки отдельных элементов  формы в соответствии с образцом:
 <div align="center"><img src="https://github.com/fufaev/html_lesson4/blob/main/page%20examples/example-1.jpg" alt="образец" width="350"><img src="https://github.com/fufaev/html_lesson4/blob/main/page%20examples/example-2.jpg" alt="образец" width="350"></div>
 
+## Самостоятельная работа
+* На основании скриншота сверстать страничку с формой регистрации.
+<p align="center">
+<img src="https://github.com/fufaev/html_lesson4/blob/main/page%20examples/vk.jpg"></p>
 
