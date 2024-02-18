@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Использование веб-форм на сайте</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body >
+  <header>
+    <h1>Регистрация</h1>    
+  </header>
+  <div class="line"></div>
+  <div class="container">
+    <img src="images/Vkontakte.gif" alt="Иконка">
+    <p><b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях,
+      которые Вас <br>окружают, а также найти потерянных друзей и поддерживать с ними связь.
+      Вы сможете <br> делиться информацией, ограничивая круг лиц, которым она будет доступна.
+    </p>
+  </div>
+  <main>
+  <h2>Имя</h2>
+  <div class="line"></div>
+  <form action="" method="post">
+    <div class="field">
+      <label>Имя:</label>
+      <input type="text" name="name" />
+      <abbr>Допускаются только настоящие имя и фамилия</abbr>
+    </div>
+    <div class="field">
+      <label>Фамилия:</label>
+      <input type="text" name="surname" />
+      <abbr>Остальные регистрации будут удаляться</abbr>
+    </div>
+    <div class="field">
+      <label>E-Mail:</label>
+      <input type="mail" name="mail" />
+    </div>
+    <div class="field">
+      <label>Пароль:</label>
+      <input type="password" name="password" />
+    </div>
+        
+  </form>
+  <h2>Образование</h2>
+  <div class="line"></div>
+  <form>
+    <label class="country">Страна:</label>
+            <select name="country">
+              <option>Беларусь</option>
+              <option>Россия</option>
+              <option>Украина</option>
+              <option>Польша</option>
+              <option>Литва</option>
+              <option>Латвия</option>
+              <option>Эстония</option>
+              <option>США</option>
+            </select>    
+  </form>
+  
+  <form>
+    <label class="city">Город:</label>
+            <select name="city">
+              <option>Минск</option>
+              <option>Москва</option>
+              <option>Киев</option>
+              <option>Варшава</option>
+              <option>Вильнюс</option>
+              <option>Рига</option>  
+            </select>
+  </form>
+  <p class="asd">Город, где вы учились в школе или вузе:</p>
+  
+  <h3>Школа</h3>
+  <div class="line3"></div>
+  <form>
+    <label class="school">Школа:</label>
+            <select name="school">
+              <option>-Выберите школу-</option>
+              <option>СШ №1</option>
+              <option>СШ №2</option>
+              <option>Гимназия №1</option>
+              <option>Гимназия №2</option>  
+            </select>
+  </form>
+
+  <h4>Университет</h4>
+  <div class="line3"></div>
+  <form>
+    <label class="University">ВУЗ:</label>
+            <select name="University">
+              <option>-Выберите ВУЗ-</option>
+              <option>БГУ</option>
+              <option>БГУИР</option>
+              <option>ГБНТУ</option>
+              <option>БГАИ</option>  
+            </select>
+  </form>
+  <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+  <p class="qwe">Фактом регистрации вы соглашаетесь с
+  <a href="/пользовательским соглашение" target="_blank" rel="noopener">Пользовательским соглашением</a></p>
+
+  </main>
+</body>
+
+</html>
+  
