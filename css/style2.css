@@ -13,13 +13,15 @@ h2{
     color: rgb(7, 90, 159);   
 }
 h3{
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 200;
     color: rgb(7, 90, 159);  
     margin-top: 40px;
     margin-bottom: 8px;
 }
 h4{
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 200;
     color: rgb(7, 90, 159);  
     margin-top: 10px;
     margin-bottom: 7px;
@@ -59,10 +61,11 @@ div.field label {
     margin-top: 4px;
     text-align: right;
     margin-right: 6px;
-    font-size: 18px;
+    font-size: 17px;
+    color: #787878;
     
-   
-}
+   }
+
 input{
     padding-bottom: 4px;
     padding-top: 4px;
@@ -95,11 +98,13 @@ select option{
   }
 .country{
 margin-left: 20px;
-font-size: 18px;
+font-size: 17px;
+color: #787878;
 }
 .city{
     margin-left: 32px;
-    font-size: 18px;
+    font-size: 17px;
+    color: #787878;
 
 }
 .city select{
@@ -115,17 +120,20 @@ font-size: 18px;
 .school{
     margin-top: 4px;
     margin-left: 22px;
-    font-size: 18px;
+    font-size: 17px;
+    color: #787878;
 }
 .University{
     margin-left: 50px;
     padding-top: 10px;
+    font-size: 17px;
+    color: #787878;
 }
 .btn{
     padding: 4px 55px 4px 55px;
-margin-top: 30px;
-margin-left: 40px;
-font-size: 16px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 16px;
 }
 abbr{
     font-size: 14px;
@@ -140,6 +148,7 @@ abbr{
 }
 .qwe a{
     text-decoration: none;
+    color: rgb(7, 90, 159);
 }
 .asd{
     color: #444444;
